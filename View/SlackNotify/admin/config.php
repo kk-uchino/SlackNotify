@@ -31,7 +31,7 @@
 							<?php echo $this->BcForm->error('SlackNotifyMessage.' . $mailContent['MailContent']['id'] . '.status') ?>
 						</p>
 						<p>
-							<?php echo $this->BcForm->label('SlackNotifyMessage.' . $mailContent['MailContent']['id'] . '.channel', 'チェンネル') ?><br>
+							<?php echo $this->BcForm->label('SlackNotifyMessage.' . $mailContent['MailContent']['id'] . '.channel', 'チャンネル') ?><br>
 							<?php echo $this->BcForm->input('SlackNotifyMessage.' . $mailContent['MailContent']['id'] . '.channel', ['type' => 'text', 'size' => 40, 'maxlength' => 255, 'autofocus' => true]) ?><br>
 							<span style="font-size: 1.2rem; color: #888;">「#」の入力は不要です。</span>
 							<?php echo $this->BcForm->error('SlackNotifyMessage.' . $mailContent['MailContent']['id'] . '.channel') ?>
